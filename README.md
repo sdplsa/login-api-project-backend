@@ -1,4 +1,4 @@
-# 🚀 FastAPI Auth System (Nome do Projeto)
+# 🚀 FastAPI Auth System
 
 Sistema de autenticação profissional desenvolvido durante a graduação em Ciência da Computação, focado em **Clean Architecture** e segurança.
 
