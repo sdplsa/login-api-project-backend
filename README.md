@@ -1,15 +1,20 @@
-# API de Autenticação — Projeto Backend
+# 🚀 FastAPI Auth System (Nome do Projeto)
 
-API em Python com FastAPI que permite cadastro de usuários com senhas criptografadas (bcrypt) e armazenamento em banco SQLite. Possui validação de e-mail, documentação automática via `/docs` e estrutura pronta para integração com frontend ou evolução para login e JWT.
+Sistema de autenticação profissional desenvolvido durante a graduação em Ciência da Computação, focado em **Clean Architecture** e segurança.
 
-## Tecnologias
-- Python 3
-- FastAPI
-- SQLAlchemy
-- SQLite
-- Passlib (bcrypt)
+## 🛠️ Tecnologias e Conceitos
+- **Linguagem:** Python 3.12+
+- **Framework:** FastAPI
+- **Persistência:** SQLAlchemy (ORM) e SQLite
+- **Segurança:** Hashing de senhas com Bcrypt (Passlib)
+- **Arquitetura:** Separação em camadas (Models, Schemas, Database, Main)
 
-## Como executar
-```powershell
-py -m pip install "fastapi" "uvicorn" "sqlalchemy" "passlib[bcrypt]" "pydantic[email]"
-py -m uvicorn main:app --reload
+## 📌 Diferenciais Técnicos
+- **Injeção de Dependência:** Gestão eficiente de sessões de banco de dados.
+- **Desacoplamento:** Estrutura pronta para migração para **AWS (RDS/PostgreSQL)**.
+- **Validação:** Uso rigoroso de Pydantic para integridade de dados.
+
+## 🚀 Como rodar o projeto
+1. Clone o repositório
+2. `pip install -r requirements.txt`
+3. `uvicorn main:app --reload`
